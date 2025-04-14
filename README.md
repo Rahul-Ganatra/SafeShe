@@ -1,5 +1,8 @@
 # SheSafe - Women Safety & Navigation Application 🛡️
 
+## 📺 Project Video
+[![Watch the Video](https://img.shields.io/badge/📺-Watch%20Project%20Video-blue)](https://drive.google.com/file/d/13NDhT98EX-Vq9_rVfV0Ityv0V2cCd1Nx/view?usp=drive_link)
+
 ## 🌟 Overview
 
 SheSafe is a comprehensive women safety application designed to empower women with secure navigation and community-driven safety features. Our mission is to create safer spaces for women through technology and community engagement.
