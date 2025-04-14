@@ -1,38 +1,90 @@
-# SafeShe
+# SheSafe - Women Safety & Navigation Application 🛡️
 
-## Getting Started
+## 🌟 Overview
 
-1. Clone this repo
-2. Run ` flutter pub get `
-3. Run without debugging
+SheSafe is a comprehensive women safety application designed to empower women with secure navigation and community-driven safety features. Our mission is to create safer spaces for women through technology and community engagement.
 
-### Introduction
-Our country needs to make public spaces safer. Can an AI powered system solve for reducing the rate of crimes against women?
+## ✨ Key Features
 
-The problem SafeShe solves:
-Women face heightened safety risks, with limited effective tools for real-time protection. Existing solutions often lack the features needed to address these challenges holistically.
+### 🗺️ Smart Navigation
+- **Dual Route Options**: Choose between fastest and safest routes
+- **Real-time Location Tracking**: Live GPS tracking with OpenStreetMap integration
+- **Safety Heat Maps**: Visual representation of safe/unsafe areas
 
-How It Helps
-This solution offers a combination of real-time unsafe zone mapping, AR-based self-defense tutorials, and anonymous incident reporting, allowing users to:
+### 🚨 Safety Features
+- **Emergency SOS**: Quick access to emergency contacts and authorities
+- **FIR Integration**: Verified incident reporting system
+- **Unsafe Location Marking**: Community-driven safety alerts
+- **24/7 Support**: Direct connection to emergency services
 
-* Avoid high-risk areas (By mapping unsafe zones on G-Map)
-* Plan safer routes
-* Learn self-defense techniques through AR
-* Report incidents anonymously to alert others
-* Legal Assist AI (Using Meta's Llama-3.1-8b-instant) (With Multilingual support)
-* Pairing commuting women together to avoid sexual assaulters lurking around solitary women
+### 💬 Community Features
+- **Safety Chat**: Connect with other users in your area
+- **Incident Reporting**: Report and track safety concerns
+- **Legal Resources**: Access to relevant IPC sections for different types of crimes
+- **Support Stories**: Share and read experiences from the community
 
-By providing data-backed safety insights, interactive defense training, and discreet reporting, it empowers users to protect themselves and others more effectively.
+## 🛠️ Tech Stack
 
-Devfolio - [SafeShe](https://devfolio.co/projects/safeshe-8f37)
+### Frontend
+- Flutter
+- Dart
+- Material Design
+- OpenStreetMap Flutter
 
-The repository for Legal Assist chatbot can be found here: [Llama_Legal_Assist](https://github.com/KeyurMistry123/LegalAssistantLLAMA/tree/main)
+### Backend
+- Firebase
+- Cloud Firestore
+- Firebase Authentication
+- Real-time Database
 
-The Demo Link can be found here: [Video_Demo](https://drive.google.com/drive/u/1/folders/1L9c7sytg2fMIIYQ7PmGt6PRqMCPovSyD)
+### APIs & Services
+- OpenStreetMap API
+- Geolocation Services
+- Firebase Cloud Messaging
+- Google Maps API
 
-Demo Screenshots:
+## 🚀 Installation
 
-![Untitled design](https://github.com/user-attachments/assets/5e124ae5-3da4-4469-a0e2-beef15865546)
-![Untitled design (1)](https://github.com/user-attachments/assets/4d443bef-750e-4bc0-9373-ba8ae2e36228)
-![Untitled design (2)](https://github.com/user-attachments/assets/a6a5f2d5-9cd1-481c-9276-a87ed3959e13)
+1. Clone the repository
+```bash
+git clone https://github.com/Rahul-Ganatra/shesafe.git
+```
 
+2. Install dependencies
+```bash
+flutter pub get
+```
+
+3. Run the app
+```bash
+flutter run
+```
+
+## 🔐 Environment Setup
+
+1. Create a `.env` file in the root directory
+2. Add your API keys:
+```env
+OPENSTREETMAP_API_KEY=your_api_key
+FIREBASE_API_KEY=your_firebase_key
+```
+
+## 🤝 Contributing
+
+We welcome contributions to SheSafe! Please read our Contributing Guidelines before submitting a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+---
+
+<div align="center">
+  Made with ❤️ for women's safety
+</div>
